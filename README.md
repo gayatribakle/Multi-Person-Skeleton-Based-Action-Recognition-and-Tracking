@@ -14,24 +14,24 @@
 
 <table style="width:100%; table-layout:fixed;">
  <tr>
-    <td><img width="448" height="224" src="assets/aung_la.gif"></td>
-    <td><img width="448" height="224" src="assets/aung_la_debug.gif"></td>
+    <td><img width="448" height="224" src="aung_la.gif"></td>
+    <td><img width="448" height="224" src="aung_la_debug.gif"></td>
  </tr>
  <tr>
     <td align="center"><font size="1">Fight scene demo<font></td>
     <td align="center"><font size="1">Fight scene debug demo<font></td>   
  </tr>
  <tr>
-    <td><img width="448" height="224" src="assets/fun_theory.gif"></td>
-    <td><img width="448" height="224" src="assets/fun_theory_debug.gif"></td>
+    <td><img width="448" height="224" src="fun_theory.gif"></td>
+    <td><img width="448" height="224" src="fun_theory_debug.gif"></td>
  </tr>
  <tr>
     <td align="center"><font size="1">Street scene demo<font></td>
     <td align="center"><font size="1">Street scene debug demo<font></td>   
  </tr>
  <tr>
-    <td><img width="448" height="224" src="assets/street_walk.gif"></td>
-    <td><img width="448" height="224" src="assets/street_walk_debug.gif"></td>
+    <td><img width="448" height="224" src="street_walk.gif"></td>
+    <td><img width="448" height="224" src="street_walk_debug.gif"></td>
  </tr>
  <tr>
     <td align="center"><font size="1">Street walk demo<font></td>
@@ -40,26 +40,6 @@
 </table>
 
 
-Table of Contents
-=================
-
-* [News](#news)
-* [Overview](#overview)
-* [Inference Speed](#inference-speed)
-* [Installation](#installation)
-   * [Step 1 - Install Dependencies](#step-1---install-dependencies)
-   * [Step 2 - Install <a href="https://github.com/NVIDIA-AI-IOT/torch2trt">torch2trt</a>](#step-2---install-torch2trt)
-   * [Step 3 - Install trt_pose](#step-3---install-trt_pose)
-* [Run Quick Demo](#run-quick-demo)
-   * [Step 1 - Download the Pretrained Models](#step-1---download-the-pretrained-models)
-
-   * [Step 2 - TensorRT Conversion (Optional)](#step-2---tensorrt-conversion-optional)
-   * [Step 3 - Run Demo.py](#step-3---run-demopy)
-* [Training](#training)
-   * [Train Action Classifier Model](#train-action-classifier-model)
-   * [Train reID Model for DeepSort Tracking](#train-reid-model-for-deepsort-tracking)
-* [References](#references)
-* [TODO](#todo)
 
 ---
 

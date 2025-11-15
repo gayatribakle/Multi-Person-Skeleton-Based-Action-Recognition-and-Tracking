@@ -242,16 +242,4 @@ cd src && python prepare_mars.py --root <your dataset root> --train_percent 0.8 
 cd src && python train_reid.py --config ../configs/train_reid.yaml
 ```
 ---
-# References
-- [realtime action recognition](https://github.com/felixchenfy/Realtime-Action-Recognition)
-- [nvidia trt_pose](https://github.com/NVIDIA-AI-IOT/trt_pose/blob/master/README.md)
-- [DeepSort](https://github.com/nwojke/deep_sort)
-- [Pytorch Deepsort YOLOv5](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch)
-- [Aligned Reid Network](https://github.com/huanghoujing/AlignedReID-Re-Production-Pytorch)
 
-# TODO  
-- [x] Add different reid network used in DeepSort
-- [x] Add tensorrt for reid model
-- [ ] Add more pose estimation models
-- [ ] Add more tracking methods
-- [ ] Add more action recognition models
